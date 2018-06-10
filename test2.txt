@@ -1,0 +1,3 @@
+Welcome to Computer University(Mdy).
+We are intern students.
+Now, I am studying in python exercise.
