@@ -21,7 +21,7 @@ PHRASES = {
         }
 
 # do they want to drill phrases first
-if len(sys.argb) == 2 and sys.argv[1] == "english":
+if len(sys.argv) == 2 and sys.argv[1] == "english":
     PHRASE_FIRST = True
 else:
     PHRASE_FIRST = False
@@ -57,7 +57,7 @@ def convert(snippet, phrase):
         for word in param_names:
             result = result.replace("@@@", word, 1)
 
-        result.append(result)
+        results.append(result)
     return results
 
 # keep going until they hit CTRL-D
