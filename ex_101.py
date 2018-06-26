@@ -1,16 +1,16 @@
-tabby_dog = "\tI'm tabbed in."
-persian_dog = "I'm split\non a line."
-backslash_dog = "I'm \\ a \\ dog."
+tabby_red = "\tI'm tabbed in."
+persian_red = "I'm split\non a line."
+backslash_red = "I'm \\ a \\ red."
 
-fat_dog = """
+fat_red = """
 I'll do a list:
-\t* Dog food
+\t* Red food
 \t* Fishies
 \t* Catnip\n\t*Grass
 """
 
-print(tabby_dog)
-print(persian_dog)
-print(backslash_dog)
-print(fat_dog)
+print(tabby_red)
+print(persian_red)
+print(backslash_red)
+print(fat_red)
 
